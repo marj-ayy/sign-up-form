@@ -7,6 +7,56 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="img-container">
+            <div class="logo-container">
+                <img src="img/odin-lined.png" alt="cartoonish picture of the norse god Odin">
+                <h2 class="odin-title">ODIN</h2>
+            </div>
+            <p class="credit-paragraph">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></p>
+        </div>
+        <div class="form-container">
+            <p class="main-paragraph">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.<br><br>You know you want to.</p>
+            <form action="#" method="post">
+                <div class="fields-container">
+                    <legend>Let's do this!</legend>
+                    <div class="input-container">
+                        <div class="names-container">
+                            <div class="firstName-container">
+                                <label for="#firstName">FIRST NAME</label>
+                                <input type="text" name="firstName" id="firstName" required>
+                            </div>
+                            <div class="lastName-container">
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" name="lastName" id="lastName" required> 
+                            </div>
+                        </div>
+                        <div class="coordinates-container">
+                            <div class="email-container">
+                                <label for="#email">EMAIL</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                            <div class="phoneNumber-container">
+                                <label for="#phoneNumber">PHONE NUMBER</label>
+                                <input type="number" name="phoneNumber" id="phoneNumber" required>
+                            </div>
+                        </div>
+                        <div class="secret-container">
+                            <div class="password-container">
+                                <label for="#password">PASSWORD</label>
+                                <input type="password" name="password" id="password" required>
+                            </div>
+                            <div class="confirmPassword-container">
+                                <label for="#confirmPassowrd">CONFIRM PASSWORD</label>
+                                <input type="password" name="confirmPassword" id="confirmPassword" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+            <p class="account-paragraph">Already have an account? <a class="login-link" href="#">Log in</a></p>
+        </div>
+    </div>
 </body>
 </html>
