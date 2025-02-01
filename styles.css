@@ -3,8 +3,89 @@
     src: url("fonts/Norse-Bold.otf");
 }
 
-body > *{
+*{
     margin: 0;
     padding : 0;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.main-container{
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("img/halie-west-leaf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: max(40vw, 600px);   
+}
+
+.logo-container{
+    display: flex;
+    margin-top: min(200px, 30%);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0,0,0, 50%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.odin-img{
+    width: min(80px, 10vw);
+    object-fit: contain;
+}
+
+.odin-title{
+    font-family: norseBold, sans-serif;
+    color: white;
+    font-size: min(6em, 80px);
+}
+
+.credit-paragraph{
+    color: white;
+    font-size: 0.7em;
+    margin-bottom: min(5%, 10px);
+}
+
+a {
+    color: inherit;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+}
+
+.main-paragraph, .account-paragraph{
+    padding-left: 30px;
+}
+
+.main-paragraph{
+    font-weight: bold;
+    max-inline-size: 55ch;
+}
+
+.account-paragraph{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.login-link{
+    text-decoration: none;
+    color: #596D48;
+}
